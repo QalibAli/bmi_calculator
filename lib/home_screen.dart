@@ -49,7 +49,13 @@ class HomeScreen extends StatelessWidget {
                     ),
                     Text(
                       "Male",
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w900,
+                        fontSize: 25,
+                        fontStyle: FontStyle.italic
+
+                      ),
                     )
                   ],
                 )),
@@ -61,7 +67,6 @@ class HomeScreen extends StatelessWidget {
               width: 150,
               height: 150,
               color: Colors.black,
-              
             ),
           )
         ],
